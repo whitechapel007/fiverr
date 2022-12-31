@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+.nav {
+  gap: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.img {
+  border-radius: 30%;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  -ms-border-radius: 30%;
+  -o-border-radius: 30%;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.search {
+  padding: 8px 15px;
+  border-color: rgba(159, 134, 134, 0.366);
+  width: 450px;
+}
+.input-field {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.abss {
+  position: absolute;
+  right: 2%;
+}
+
+.circles {
+  display: flex;
+  gap: 10px;
+}

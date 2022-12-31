@@ -1,0 +1,77 @@
+.all {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.purple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  width: 100%;
+}
+.content {
+  width: 30%;
+}
+.color-text {
+  font-weight: 600;
+  font-size: 18px;
+}
+.gradient-button {
+  background-color: #fff;
+  border-color: black;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 19px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.text-p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.stars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.black-btn {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 20px 30px;
+}
+
+@media (max-width: 500px) {
+  .all {
+    flex-direction: column;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    width: 100vw;
+  }
+  .img {
+    width: 100%;
+  }
+  .purple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    width: 100%;
+  }
+}
